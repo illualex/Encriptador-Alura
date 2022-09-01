@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+  }
+  
+matrix
+  html {
+      background: black;
+      height: 100%;
+      overflow: hidden;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+  }
+
+  .main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .btn-encriptar {
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 24px;
+    padding: 24px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #08711f;
+    border: 10px solid #ffffff;
+    border: none;
+    color: white;
+
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-encriptar:hover {opacity: 3}
+
+  .btn-desencriptar{
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 24px;
+    padding: 24px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #08711f;
+    border: 10px solid #ffffff;
+    border: none;
+    color: white;
+
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn-desencriptar:hover {opacity: 3}
+  
+  .text-input {
+    /* Escriba aqui */
+    text-transform:lowercase;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 15%;
+    top: 168px;
+    border: auto;
+    border-radius: 10px;
+  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    justify-content: baseline;
+    /* identical to box height, or 48px */
+    resize: none;
+
+    color: #000000;
+    background: #E9ECF8;
+    }
+
+  ::placeholder {  
+    color: #000000; 
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+    padding-top: 20%;
+  }
+  
+  .text-input:focus { 
+      border: none;
+      outline: none;
+     }
+  
+  .message-box{
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    left: 70%;
+    top: 20px;
+    padding-left: 20px;
+    padding-top: 80px;
+  
+    background: #ffffff;
+  
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    }
+  .message-box h2{
+    position: static;
+    width: 336px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+  
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+  
+    color: #343A40;
+    background: #FFFFFF;
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  
+  .message-box-div, .message-box-div img {
+    padding-top: 40px;
+    background: #ffffff;
+  }
+  
+  .img-alerta{
+    position: absolute;
+    left: -5%;
+    top: -90%;
+  }
+
+   label {
+    position: static;
+    width: auto;
+    padding-left: 30px;
+    font-weight: 600;
+    
+    font-family: monospace;
+    font-size:20px;
+    line-height: 100%;
+
+    background-color: #0000009a;
+    color: #ffffff;
+    border-radius: 5px;
+   }
+
+  .form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: auto;
+    height: 18px;
+    left: 13%;
+    top: 651px;
+   }
+
+   .botones-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 12%;
+    top: 685px;
+   }
+
+  .logo{
+    position: absolute;
+    left: 50px;
+    right: 0%;
+    top: 40px;
+    bottom: 0%;
+    height: 10%;
+    
+    background: transparent;
+  }
+
+  .div-mensaje{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 60px;
+    top: 52px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    resize: none;
+
+    color: #495057;
+    border:none;
+    background:transparent;
+  }
+
+  .div-mensaje:focus { 
+    border: none;
+    outline: none;
+   }
+
+  .btn-copiar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+  
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 25px;
+    top: 660px;
+
+    border-radius: 24px;
+    padding: 24px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #08711f;
+    border: 10px solid #ffffff;
+    border: none;
+    color: white;
+
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .btn-copiar:hover {opacity: 3}
+  
+  @media only screen and (min-width: 1080px) and (max-width: 1920px){ 
+  main{
+    height:100%;
+  }
+  .text-input{
+    top:8rem;
+    left:7.1rem;
+    word-wrap: break-word;
+    } 
+  .botones-div{
+    top:32rem;
+    left:5rem;
+  }
+  .form-group{
+    left:7rem;
+    top:30rem;
+  }
+  .btn-encriptar,.btn-desencriptar{
+    font-size:24px;
+    height:65px;
+  }
+  .message-box{
+    top: 1rem;
+    height: 36rem;
+    left: 56rem;
+  }
+  .message-box-div{
+    padding-top:1rem;
+    height:25rem;
+    padding-left:1rem;
+  }
+  .message-box-div img{
+    width:18rem;
+    padding-left: 1.5rem;
+  }
+  .btn-copiar{
+    top:30.5rem;
+    height:64px;
+    font-size:24px;
+  }
+  .div-mensaje{
+    width: 20rem;
+    left:2.5rem;
+    word-wrap: break-word;
+  }
+  
+  }
